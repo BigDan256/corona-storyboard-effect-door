@@ -1,0 +1,25 @@
+settings = {
+	android = {
+		versionCode = "1",
+	},
+	orientation = {
+		default = "landscapeRight",
+		content = "landscapeRight",
+		supported = {
+			"landscapeRight",
+			"landscapeLeft",
+		},
+	},
+--[[
+	iphone = {
+		plist = {
+			UIStatusBarHidden = true,
+			UIPrerenderedIcon = false,
+			UIApplicationExitsOnSuspend = true,
+		}
+	},
+	androidPermissions = {
+  		"android.permission.INTERNET",
+  	},
+]]--
+}
